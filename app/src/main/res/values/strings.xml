@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+
+    <string name="bill_amount_label">Bill Amount</string>
+    <string name="bill_amount">34.60</string>
+
+    <string name="tip_percent_label">Percent</string>
+    <string name="tip_percent">15%</string>
+    <string name="increase">+</string>
+    <string name="decrease">-</string>
+
+    <string name="tip_amount_label">Tip</string>
+    <string name="tip_amount">$0.00</string>
+
+    <string name="total_amount_label">Total</string>
+    <string name="total_amount">$0.00</string>
+
+    <string name="display_name_label">Name</string>
+
+    // add array of keys for the preference.xml file to access to display as a list
+    <string-array name="rounding_keys">
+        <item>None</item>
+        <item>Tip</item>
+        <item>Total</item>
+    </string-array>
+
+    <string-array name="rounding_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_forget_percent"
+        android:title="Save Percentage" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/rounding_keys"
+        android:entryValues="@array/rounding_values"
+        android:key="pref_rounding"
+        android:title="Rounding" />
+    <EditTextPreference
+        android:defaultValue="Enter Name"
+        android:key="edit_display_name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Display Name"/>
+</PreferenceScreen>
